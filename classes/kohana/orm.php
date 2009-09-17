@@ -48,9 +48,8 @@ class Kohana_ORM {
 	protected $_object_plural;
 	protected $_table_name;
 	protected $_table_columns;
-	protected $_ignored_values = array();
 	protected $_ignored_columns = array();
-
+	protected $_ignored_values = array();
 	// Auto-update columns for creation and updates
 	protected $_updated_column = NULL;
 	protected $_created_column = NULL;
@@ -367,4 +366,4 @@ class Kohana_ORM {
 	{
 		if ( ! isset($this->_object_name))
 		{
-			// Object not yet con
+	%0
