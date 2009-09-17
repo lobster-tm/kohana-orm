@@ -366,4 +366,4 @@ class Kohana_ORM {
 	{
 		if ( ! isset($this->_object_name))
 		{
-	%0
+			// Object not yet construc
